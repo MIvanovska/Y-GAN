@@ -1,0 +1,8 @@
+matplotlib==3.4.2
+numpy==1.21.2
+ordereddict==1.1
+Pillow==9.5.0
+scikit_learn==0.24.2
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+tqdm==4.64.1
