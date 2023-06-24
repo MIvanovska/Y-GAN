@@ -1,6 +1,6 @@
 # Y-GAN
-An official implementation of the paper "Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection" [^1]. 
-Y-GAN is a one-class learning model designed for detection of anomalies in images. The model is trained to disentangle semantically-relevant image information from irrelevant, residual characteristics and facilitates efficacious anomaly detection based on selective image encoding. 
+Official implementation of the paper "Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection" [^1]. 
+Y-GAN is a one-class learning model designed for the detection of anomalies in images. The model is trained to disentangle semantically-relevant image information from irrelevant, residual characteristics and facilitates efficacious anomaly detection based on selective image encoding. 
 
       
 
@@ -8,7 +8,7 @@ Y-GAN is a one-class learning model designed for detection of anomalies in image
 
 For more information please refer to the paper available [here](https://arxiv.org/abs/2109.14020).
 
-## 1. Install the dependencis
+## 1. Install the dependencies
 The model is implemented using PyTorch. The full list of used libraries can be found in requirements.txt.
 ```
 pip install -r requirements.txt
@@ -49,7 +49,7 @@ To train Y-GAN on Dataset_name placed in a root directory named data, run the fo
 python train.py --dataroot data --dataset Dataset_name --name experiment_name --isize image_size
 ```
 ## 4. Evaluation
-To test a pretrined Y-GAN run the following:
+To test a pretrained Y-GAN run the following:
 ```
 python test.py --dataroot data --dataset Dataset_name --name experiment_name --isize image_size --load_checkpoint output/experiment_name/train/weights/y_gan.pth
 ```
