@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## 2. Prepare the data
-The dataset you are using for training or testing Y-GAN should have the following directory structure where the names of individual classes are represented with unique nubers or strings:
+The dataset you are using for training or testing Y-GAN should have the following directory structure where the names of individual classes are represented with unique numbers or strings:
 ```
 Dataset_name
 ├── test
