@@ -59,11 +59,13 @@ If you find this code useful or you want to refer to the paper, please cite usin
 @misc{ivanovska2022ygan,
       title={Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection}, 
       author={Marija Ivanovska and Vitomir Štruc},
-      year={2022},
-      eprint={2109.14020},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+      journal = {Expert Systems with Applications},
+      volume = {248},
+      pages = {123410},
+      year = {2024},
+      issn = {0957-4174},
+      doi = {https://doi.org/10.1016/j.eswa.2024.123410}
+      }
 ```
 
 ## Acknowledgements
