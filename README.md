@@ -56,7 +56,7 @@ python test.py --dataroot data --dataset Dataset_name --name experiment_name --i
 ## 5. Citing Y-GAN
 If you find this code useful or you want to refer to the paper, please cite using the following BibTeX:
 ```
-@misc{ivanovska2022ygan,
+@article{ivanovska2022ygan,
       title={Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection}, 
       author={Marija Ivanovska and Vitomir Štruc},
       journal = {Expert Systems with Applications},
