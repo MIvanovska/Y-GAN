@@ -72,4 +72,4 @@ If you find this code useful or you want to refer to the paper, please cite usin
 This code is partly based on the official implementation of [skip-GANomaly](https://github.com/samet-akcay/skip-ganomaly).
 
 ## References
-[^1]: M. Ivanovska, V. Struc, Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection, 2019
+[^1]: M. Ivanovska, V. Struc, Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection, Expert Systems with Applications, 2024
